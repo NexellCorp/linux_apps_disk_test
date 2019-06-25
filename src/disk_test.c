@@ -744,7 +744,7 @@ static void print_usage(void)
 	printf("   fmax=n, random max, default and limit max %dMbyte\n",
 		FILE_MAX_SIZE/MBYTE);
 	printf("-c test count, default %d\n", DISK_COUNT);
-	printf("-l loop\n");
+	printf("-l loop count\n");
 	printf("-s no sync access, default sync\n");
 	printf("-t no time info,\n");
 	printf("-n set priority, FIFO 99\n");
